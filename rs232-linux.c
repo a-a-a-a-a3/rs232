@@ -33,7 +33,7 @@
 
 #if defined(__unix__) || defined(__unix) || \
     defined(__APPLE__) && defined(__MACH__)
-
+    
 #define _DARWIN_C_SOURCE
 
 #include "rs232.h"
